@@ -37,3 +37,20 @@ next = skip functions
 step = enter functions
 > display a, b
 fix it
+
+binary
+> list doesn't work
+> break main
+> disassemble
+overwhelming, look for call
+> call printf
+> push before
+> print (char*)0xaddr
+> x/s 0xaddr
+> help x
+> x/10x, x/10d
+back to assembly
+jne --> cmp --> mov,
+ebp is on the stack
+
+0x2a, right click for value
