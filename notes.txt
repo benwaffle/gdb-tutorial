@@ -12,8 +12,7 @@ $ gdb ./crash
 > frame n
 > list
 > info args
-> print argv
-> print argv[0, 1]
+> print argv, argv[0, 1]
 
 strings()
 > run 1

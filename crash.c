@@ -2,6 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <assert.h>
+#include <time.h>
 
 void copystring(char *a, char *b) {
     int y = 23;
