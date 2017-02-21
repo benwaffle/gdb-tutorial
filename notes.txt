@@ -44,12 +44,23 @@ binary
 > disassemble
 overwhelming, look for call
 > call printf
-> push before
+args rdi, rsi
+calling convention link
 > print (char*)0xaddr
+x is for addresses
 > x/s 0xaddr
 > help x
 > x/10x, x/10d
 back to assembly
-jne --> cmp --> mov,
-ebp is on the stack
-right hex click for value
+jne --> cmp
+break *cmpaddr
+> info reg
+> print $rax
+
+print 0xval
+
+extras:
+break <func> if <cond>
+> break fib if n == 6
+watch <exp>
+> watch i
