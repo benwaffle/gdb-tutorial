@@ -14,14 +14,15 @@ void strings() {
 }
 
 void assertions() {
-    int x = 2;
+    srand(time(NULL));
+    int x = rand();
     assert(x == 40);
 }
 
 
 int main(int argc, char **argv) {
-    if (atoi(argv[1]) == 1)
-        strings();
-    else
-        assertions();
+    switch (atoi(argv[1])) {
+        case 1: strings(); break;
+        case 2: assertions(); break;
+    }
 }

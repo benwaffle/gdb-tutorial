@@ -1,0 +1,26 @@
+interrupt with questions
+gdb - GNU Debugger
+- see state of your code
+gcc -g
+$ gdb ./crash
+> help <info>
+> run
+> backtrace
+#n 0xaddr in func (args) at file.c:line
+#n 0xaddr in func (args) at libidk.so
+> up/down
+> frame n
+> list
+> info args
+> print argv
+> print argv[0, 1]
+
+strings()
+> run 1
+> info args
+> print a, b, b[y]
+> quit
+fix code, char dest[1024]
+
+assertions()
+run, bt, frame, print x
