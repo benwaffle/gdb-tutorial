@@ -52,5 +52,4 @@ overwhelming, look for call
 back to assembly
 jne --> cmp --> mov,
 ebp is on the stack
-
-0x2a, right click for value
+right hex click for value
