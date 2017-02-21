@@ -24,3 +24,16 @@ fix code, char dest[1024]
 
 assertions()
 run, bt, frame, print x
+
+logic
+not memory error, a bug
+run not useful, breakpoints
+> break
+> info break
+> delete n
+> continue
+> print a, b
+next = skip functions
+step = enter functions
+> display a, b
+fix it
